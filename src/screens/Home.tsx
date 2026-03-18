@@ -10,14 +10,43 @@ export function Home({navigation}): any {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>
-                Navagação estilo Stack
-            </Text>
-            <Pressable style={styles.button} onPress={navToDetails}>
-                <Text style={styles.buttonTitle}>
-                    Clique Aqui
+            <View style={styles.titleDiv}>
+                <Text style={styles.title}>
+                    Seja bem-vindo ao Shopping do Balacobaco
                 </Text>
-            </Pressable>
+            </View>
+
+            <View style={styles.divDetalhe}>
+                <Text style={styles.detalhe}>Escolha uma opção</Text>
+            </View>
+
+            <View>
+                <Pressable style={styles.button} onPress={navToDetails}>
+                    <Text style={styles.buttonTitle}>
+                        Lojas
+                    </Text>
+                </Pressable>
+                <Pressable style={styles.button} onPress={navToDetails}>
+                    <Text style={styles.buttonTitle}>
+                        Restaurntes
+                    </Text>
+                </Pressable>
+                <Pressable style={styles.button} onPress={navToDetails}>
+                    <Text style={styles.buttonTitle}>
+                        Cinema
+                    </Text>
+                </Pressable>
+                <Pressable style={styles.button} onPress={navToDetails}>
+                    <Text style={styles.buttonTitle}>
+                        Promoções
+                    </Text>
+                </Pressable>
+                <Pressable style={styles.button} onPress={navToDetails}>
+                    <Text style={styles.buttonTitle}>
+                        Mapa do Shopping
+                    </Text>
+                </Pressable>
+            </View>
         </View>
     );
 } 
