@@ -25,7 +25,7 @@ export function Restaurantes({ navigation }): any {
         <View style={styles.imageContainer}>
           <View style={{ alignItems: "center" }}>
             <Image
-              source={require("../../assets/Furia.png")}
+              source={require("../../assets/bk.png")}
               resizeMode="contain"
               style={styles.image}
             />
@@ -37,12 +37,12 @@ export function Restaurantes({ navigation }): any {
                 marginBottom: -7,
               }}
             >
-              Furia
+              Burger King
             </Text>
           </View>
           <View style={{ alignItems: "center" }}>
             <Image
-              source={require("../../assets/Vitallity.png")}
+              source={require("../../assets/mc.png")}
               resizeMode="contain"
               style={styles.image}
             />
@@ -54,12 +54,12 @@ export function Restaurantes({ navigation }): any {
                 marginBottom: -7,
               }}
             >
-              Vitallity
+              McDonald's
             </Text>
           </View>
                     <View style={{ alignItems: "center" }}>
             <Image
-              source={require("../../assets/IBuyPower.png")}
+              source={require("../../assets/giraffas.png")}
               resizeMode="contain"
               style={styles.image}
             />
@@ -71,12 +71,12 @@ export function Restaurantes({ navigation }): any {
                 marginBottom: -7,
               }}
             >
-              IBuyPower
+              Giraffas
             </Text>
           </View>
                     <View style={{ alignItems: "center" }}>
             <Image
-              source={require("../../assets/Luminosity.png")}
+              source={require("../../assets/habibs.png")}
               resizeMode="contain"
               style={styles.image}
             />
@@ -88,7 +88,7 @@ export function Restaurantes({ navigation }): any {
                 marginBottom: -7,
               }}
             >
-              Luminosity
+              Habib's
             </Text>
           </View>
         </View>

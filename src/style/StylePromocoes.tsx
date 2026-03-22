@@ -35,5 +35,35 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: "bold",
     color: "#e4e4e4",
-  }
+  },
+  card: {
+    width: "90%",
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 15,
+    overflow: "hidden", // Para o badge não sair da borda
+  },
+  promoBadge: {
+    backgroundColor: "#F2B33D",
+    padding: 24,
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#7D0A1B",
+    textAlign: "center",
+    width: 100,
+  },
+  cardInfo: {
+    padding: 15,
+  },
+  storeName: {
+    fontSize: 18,
+    fontWeight: "bold",
+    color: "#333",
+  },
+  description: {
+    fontSize: 14,
+    color: "#666",
+  },
 });
